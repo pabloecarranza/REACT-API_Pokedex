@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import Pokemon from "./Pokemon";
 import CardPokemon from './CardPokemon'
-import { useAppContext } from '../store/Context'
+import { useAppContext } from '../Context'
 
 const Pokemons = () => {
   const { allPokemons, loadMore, setLoadMore, filtrar, filteredPokes, createPokemonObject } = useAppContext()
