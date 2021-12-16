@@ -1,6 +1,6 @@
 import React from "react";
 import Pokemons from "./components/Pokemons";
-import { AppContextProvider } from './store/Context';
+import { AppContextProvider } from './Context';
 
 const App = () => {
 
